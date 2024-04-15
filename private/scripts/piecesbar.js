@@ -54,10 +54,10 @@ window.qBittorrent.PiecesBar = (() => {
                 'id': 'piecesbar_' + (piecesBarUniqueId++),
                 'width': 0,
                 'height': 0,
-                'downloadingColor': 'green',
-                'haveColor': 'blue',
+                'downloadingColor': '#3d9713',
+                'haveColor': '#136d97',
                 'borderSize': 1,
-                'borderColor': '#999'
+                'borderColor': '#3b3b3b'
             };
 
             if (parameters && ($type(parameters) === 'object'))

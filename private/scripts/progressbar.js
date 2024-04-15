@@ -47,7 +47,7 @@ window.qBittorrent.ProgressBar = (function() {
                 'value': $pick(value, 0),
                 'width': 0,
                 'height': 0,
-                'darkbg': '#006',
+                'darkbg': '#974313',
                 'darkfg': '#fff',
                 'lightbg': '#fff',
                 'lightfg': '#000'

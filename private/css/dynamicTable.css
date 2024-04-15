@@ -6,12 +6,17 @@
 **************************************************************/
 
 .dynamicTable tbody tr {
-    background-color: #fff;
+    background-color: var(--primary-background-color);
+}
+
+.dynamicTable tbody tr:nth-child(odd),
+.dynamicTable tbody tr.alt {
+    background-color: var(--primary-background-color);
 }
 
 .dynamicTable tbody tr:nth-child(even),
 .dynamicTable tbody tr.alt {
-    background-color: #eee;
+    background-color: var(--secondary-background-color-hover);
 }
 
 #transferList .dynamicTable td {
@@ -19,13 +24,13 @@
 }
 
 .dynamicTable tbody tr.selected {
-    background-color: #354158;
-    color: #fff;
+    background-color: var(--primary-accent-color);
+    color: var(--primary-text-color);
 }
 
 .dynamicTable tbody tr:hover {
-    background-color: #ee6600;
-    color: #fff;
+    background-color: var(--primary-accent-color-lighter);
+    color: var(--primary-text-color);
 }
 
 #transferList tr:hover {
@@ -50,8 +55,8 @@ tr.dynamicTableHeader {
 }
 
 .dynamicTable th {
-    background-color: #eee;
-    border-right: 1px solid #ccc;
+    background-color: var(--secondary-background-color);
+    border-right: 1px solid var(--separator-color);
     box-sizing: border-box;
     padding: 4px;
     white-space: nowrap;
@@ -63,7 +68,7 @@ tr.dynamicTableHeader {
 }
 
 .dynamicTable thead tr {
-    background-color: #eee;
+    background-color: var(--secondary-background-color);
 }
 
 .dynamicTable th,
